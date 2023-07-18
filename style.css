@@ -80,13 +80,19 @@ i#next {
   .image-container {
     max-width: 300px;
   }
+  i#prev {
+    left: 5px;
+  }
+  i#next {
+    right: 5px;
+  }
 }
 
 @media (max-width: 360px) {
   .wrapper {
-    max-width: 250px;
+    max-width: 300px;
   }
   .image-container {
-    max-width: 200px;
+    max-width: 270px;
   }
 }
